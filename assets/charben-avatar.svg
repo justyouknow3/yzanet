@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-labelledby="title">
+  <title id="title">Illustrated profile portrait</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#dff5ff"/>
+      <stop offset="1" stop-color="#91c9fa"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0b3d70"/>
+      <stop offset="1" stop-color="#061c39"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" fill="url(#bg)"/>
+  <circle cx="120" cy="102" r="91" fill="#fff" fill-opacity=".24"/>
+  <path d="M37 240c5-43 34-70 83-70s78 27 83 70H37Z" fill="url(#shirt)"/>
+  <path d="m98 171 22 28 22-28-7-19h-30z" fill="#d98e68"/>
+  <path d="M75 89c0-41 19-61 47-61 36 0 52 25 49 66l-8 45c-5 24-23 41-41 41-24 0-41-20-45-45l-2-46Z" fill="#f2bd98"/>
+  <path d="M73 99c-12-36-3-69 20-80 9-5 18-6 26-5 17-15 51-9 66 13 14 20 13 52 4 73-4-9-7-22-8-35-17 7-49 11-79 4-4 14-13 25-29 30Z" fill="#14253b"/>
+  <path d="M97 115c5-4 11-4 16 0" fill="none" stroke="#49302c" stroke-width="3" stroke-linecap="round"/>
+  <path d="M131 115c5-4 11-4 16 0" fill="none" stroke="#49302c" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="105" cy="126" rx="3" ry="4" fill="#182a3e"/>
+  <ellipse cx="139" cy="126" rx="3" ry="4" fill="#182a3e"/>
+  <path d="M112 151c6 5 14 5 20 0" fill="none" stroke="#a65351" stroke-width="3" stroke-linecap="round"/>
+  <path d="m104 198 16 20 16-20" fill="#fff"/>
+  <path d="m112 198 8 10 8-10" fill="#12a7df"/>
+</svg>

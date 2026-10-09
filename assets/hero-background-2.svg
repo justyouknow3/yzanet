@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="1" x2="1" y2="0">
+      <stop stop-color="#03142c"/>
+      <stop offset=".52" stop-color="#06274c"/>
+      <stop offset="1" stop-color="#05204a"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0" y1="1" x2="1" y2="0">
+      <stop stop-color="#06d1e8" stop-opacity="0"/>
+      <stop offset=".53" stop-color="#06a8f8" stop-opacity=".24"/>
+      <stop offset="1" stop-color="#0873e8" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop stop-color="#0879e8" stop-opacity=".42"/>
+      <stop offset="1" stop-color="#0879e8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h1600v900H0z"/>
+  <ellipse cx="1150" cy="390" rx="630" ry="470" fill="url(#glow)"/>
+  <g fill="url(#beam)">
+    <path d="M520 900 1050 0h100L750 900z"/>
+    <path d="m850 900 490-900h55l-250 900z"/>
+    <path d="m1180 900 380-700 40 15v685z"/>
+  </g>
+  <g fill="none" stroke="#77d5ff" stroke-opacity=".2">
+    <path d="M760 700c160-170 300-170 460 0s300 170 460 0"/>
+    <path d="M700 750c210-220 410-220 620 0s410 220 620 0"/>
+    <path d="M810 640c130-140 245-140 375 0s245 140 375 0"/>
+  </g>
+  <g fill="#67dafa" fill-opacity=".6">
+    <circle cx="975" cy="375" r="4"/><circle cx="1100" cy="480" r="3"/>
+    <circle cx="1330" cy="300" r="5"/><circle cx="1450" cy="560" r="3"/>
+    <circle cx="900" cy="600" r="3"/>
+  </g>
+</svg>
